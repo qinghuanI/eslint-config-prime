@@ -1,3 +1,5 @@
+const rules = require("./rules.js");
+
 module.exports = {
   root: true,
   env: {
@@ -13,8 +15,5 @@ module.exports = {
     }
   },
 
-  rules: {
-    "no-console": "error",
-    "no-unused-vars": "error"
-  }
+  rules: rules
 };

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-prime",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "ESLint config for qinghuanI",
   "main": "index.js",
   "author": "qinghuanI",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qinghuanI/eslint-config-essential.git"
+    "url": "git+https://github.com/qinghuanI/eslint-config-prime.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

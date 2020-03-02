@@ -1,12 +1,12 @@
-# eslint-config-essential
+# eslint-config-prime
 
 This package provides base JS .eslintrc as an extensible shared config.
 
 ## Usage
 
-Our default export contains all of our ESLint rules, including ECMAScript 6.
+necessary ESLint rules for ESLint.
 
-First, install this package
+1. install
 
 ```sh
 yarn add --dev eslint eslint-config-prime
@@ -16,13 +16,13 @@ or
 npm install --save-dev eslint eslint-config-prime
 ```
 
-Then add following contents to your .eslintrc.js file
+2. modify your .eslintrc.js file
 
 ```js
 // .eslintrc.js
 
 {
-  "extends": "prime"
+  "extends": "prime" // Or "extends": ["prime"]
 }
 ```
 
